@@ -15,19 +15,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 主RecyclerView的Adapter
  * Created by zhangjian on 16/7/23.
  */
-public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
+public class PaterAdapter extends RecyclerView.Adapter<PaterAdapter.ViewHolder> {
 
     private LayoutInflater mInfolater;
     private Context mContext;
     private List<ApesData> mDatas;
     private List<ApesData> dataList;
-    private MyTAdapter mMyTAdapter;
+    private SonAdapter mMyTAdapter;
 
 
 
-    public MyAdapter(Context context, List<ApesData> mDatas){
+    public PaterAdapter(Context context, List<ApesData> mDatas){
         this.mContext = context;
         this.mDatas = mDatas;
         mInfolater = LayoutInflater.from(context);
@@ -57,7 +58,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             dataList.add(apesData);
         }
 
-        mMyTAdapter = new MyTAdapter(mContext,dataList);
+        mMyTAdapter = new SonAdapter(mContext,dataList);
         holder.mRecyclerView.setAdapter(mMyTAdapter);
         holder.mRecyclerView.addItemDecoration(new DividerItemDecoration(mContext,DividerItemDecoration.HORIZONTAL_LIST));
 

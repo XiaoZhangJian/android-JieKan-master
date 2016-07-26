@@ -14,15 +14,16 @@ import com.kims.apescircle.entity.ApesData;
 import java.util.List;
 
 /**
+ * item内嵌的RecyclerView 的 Adapter
  * Created by zhangjian on 16/7/24.
  */
-public class MyTAdapter extends RecyclerView.Adapter<MyTAdapter.ViewHolder> {
+public class SonAdapter extends RecyclerView.Adapter<SonAdapter.ViewHolder> {
 
     private Context mContext;
     private List<ApesData> mDatas;
     private LayoutInflater mLayoutInflater;
 
-    public MyTAdapter(Context context,List<ApesData> mDatas){
+    public SonAdapter(Context context, List<ApesData> mDatas){
         mContext = context;
         this.mDatas = mDatas;
         mLayoutInflater = LayoutInflater.from(context);
