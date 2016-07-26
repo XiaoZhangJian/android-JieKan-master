@@ -1,25 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="#fafafa"--><!--android:orientation="vertical"--><!--tools:context="com.kims.apescircle.MainActivity">-->
+
+<!--<include layout="@layout/app_bar_main" />-->
+
+
+<!--<TextView--><!--android:layout_width="match_parent"--><!--android:layout_height="1dp"--><!--android:background="#c7c7c7"--><!--/>-->
+
+
+<!--<android.support.design.widget.FloatingActionButton--><!--android:id="@+id/fab"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_gravity="bottom|end"--><!--android:layout_margin="@dimen/fab_margin"--><!--android:src="@android:drawable/ic_dialog_email" />-->
+
+<!--</LinearLayout>-->
+
+
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fafafa"
-    android:orientation="vertical"
-    tools:context="com.kims.apescircle.MainActivity">
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
 
-    <include layout="@layout/layout_toolbar" />
-
-
-    <android.support.v7.widget.RecyclerView
+    <include
+        layout="@layout/app_bar_main"
         android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:background="@android:color/white"
         android:layout_height="match_parent"
-        android:id="@+id/home_list_view"
-        />
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/activity_main_drawer" />
 
-    <!--<ListView-->
-        <!--android:id="@+id/home_list_view"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content" />-->
-
-
-</LinearLayout>
+</android.support.v4.widget.DrawerLayout>
