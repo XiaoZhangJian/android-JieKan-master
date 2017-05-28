@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ooo.oxo.library.widget.PullBackLayout
+            android:id="@+id/act_flow_pull_back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.kims.apescircle.widget.RatioImageView
+                android:id="@+id/act_flow_img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_launcher"
+                android:layout_centerHorizontal="true"
+                android:transitionName="@string/name"
+                />
+
+        </ooo.oxo.library.widget.PullBackLayout>
+
+    </LinearLayout>
+
+
+</layout>

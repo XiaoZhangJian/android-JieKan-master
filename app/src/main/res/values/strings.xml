@@ -1,6 +1,11 @@
 <resources>
-    <string name="app_name">Apes Circle</string>
+    <string name="app_name">街看</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="server_client_id">885202703108-l4hhhiip41vvdmcdf6il83a04ulse4d3.apps.googleusercontent.com</string>
+
+    <string name="name">img</string>
 </resources>
