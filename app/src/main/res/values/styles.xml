@@ -60,14 +60,12 @@
         <item name="android:textColor">@android:color/white</item>
     </style>
 
-    <style name="CollapsingToolbarTitleStyle"
-           parent="@android:style/TextAppearance">
+    <style name="CollapsingToolbarTitleStyle" parent="@android:style/TextAppearance">
         <item name="android:textColor">@android:color/transparent</item>
     </style>
 
 
-    <style name="WebTitle"
-           parent="@android:style/TextAppearance">
+    <style name="WebTitle" parent="@android:style/TextAppearance">
         <item name="android:textSize">18dp</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:ellipsize">marquee</item>
@@ -75,8 +73,6 @@
         <item name="android:scrollHorizontally">true</item>
         <item name="android:singleLine">true</item>
     </style>
-
-
 
 
     <style name="Base.ViewerTheme" parent="Theme.AppCompat.NoActionBar">
@@ -96,7 +92,6 @@
     <style name="ToolbarTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
         <item name="android:fontFamily">sans-serif</item>
     </style>
-
 
 
 </resources>

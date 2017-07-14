@@ -1,4 +1,4 @@
-package com.kims.apescircle.ui.base;
+package com.kims.jiekan.ui.base;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -8,13 +8,12 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SimpleItemAnimator;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.kims.apescircle.R;
-import com.kims.apescircle.databinding.FragmentBinding;
+import com.kims.jiekan.R;
+import com.kims.jiekan.databinding.FragmentBinding;
 
 /**
  * Created by zhangjian on 2017/5/26.

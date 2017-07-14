@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">街看</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-
-
-    <string name="server_client_id">885202703108-l4hhhiip41vvdmcdf6il83a04ulse4d3.apps.googleusercontent.com</string>
-
     <string name="name">img</string>
+
+    <string name="gank_welfare">福利</string>
+    <string name="gank_android">Android</string>
+    <string name="gank_ios">iOS</string>
+    <string name="gank_js">前端</string>
+    <string name="gank_expand">拓展资源</string>
 </resources>
