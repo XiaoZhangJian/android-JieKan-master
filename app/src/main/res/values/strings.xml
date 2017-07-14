@@ -8,4 +8,36 @@
     <string name="gank_ios">iOS</string>
     <string name="gank_js">前端</string>
     <string name="gank_expand">拓展资源</string>
+
+    <string name="open_libs">
+        com.android.support:recyclerview-v7:25.3.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        c
+    </string>
 </resources>
