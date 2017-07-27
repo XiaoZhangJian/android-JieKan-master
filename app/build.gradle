@@ -49,9 +49,7 @@ dependencies {
     compile 'com.google.code.gson:gson:2.6.2'
     // oxo拖拽layout
     compile 'com.github.oxoooo:pull-back-layout:1.0.1'
-    //coordinatortablayout
     compile 'cn.hugeterry.coordinatortablayout:coordinatortablayout:1.0.6'
-    // daimajia
     compile 'com.daimajia.numberprogressbar:library:1.2@aar'
     compile 'com.github.XiaoZhangJian:RxBus:v0.0.1'
 
